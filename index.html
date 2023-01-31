@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+        <title>CV - Argentina Programa 4.0</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body
+        id="temaOscuro"
+        onload="themeToggle();mostrarInformacion();"
+        class="lightTheme"
+    >
+        <header id="header">
+            <h1>SIMON VIZIOLI</h1>
+            <hr />
+            Freelance Frontend dev - Photographer
+            <hr />
+        </header>
+        <main>
+            <article id="mainLeft">
+                <section onclick="mostrarInformacion()">
+                    <h2 id="buttonContacto" class="contactoDark">CONTACTO</h2>
+
+                    <div id="infoBox" class="hide">
+                        <p>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a href="mailto:simonvizioli@gmail.com">Email</a>
+                        </p>
+                        <p>
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <a href="https://github.com/SimonVizioli">Github</a>
+                        </p>
+                        <p>
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <a
+                                href="https://www.linkedin.com/in/sim%C3%B3n-vizioli/"
+                                >Linkedin</a
+                            >
+                        </p>
+                    </div>
+                </section>
+                <section>
+                    <h2>SKILLS</h2>
+                    <p>
+                        • HTML, CSS, JS, React.js<br />
+                        • Adobe Lightroom <br />• Adobe Photoshop <br />•
+                        DaVinci resolve
+                    </p>
+                </section>
+                <section>
+                    <h2>EDUCACIÓN</h2>
+
+                    <p>
+                        • 2021 - 2022 | Ingenieria Química<br />
+                        • 2010 - 2014 | Colegio PS-113 Tómas Alva Edison
+                        (Programación, Robotica, y conocimiento sobre
+                        computación)
+                    </p>
+                </section>
+            </article>
+            <article id="mainRight">
+                <section>
+                    <h2>IDIOMAS</h2>
+                    <p>
+                        • Aleman - B2 (Goethe Institut) <br />
+                        • Ingles - B1 <br />
+                        • Español (Nativo)
+                    </p>
+                </section>
+                <section>
+                    <h2>EXPERIENCIA LABORAL</h2>
+                    <p>
+                        • 2022 - Acutalidad | FrontEnd Developer en Departamento
+                        General de Irrigación <br />
+                        • 2016 - Actualidad | Freelance Photographer <br />
+                        • 2015 - 2016 | Freelance Frontend dev. (HTML5, CSS3)
+                    </p>
+                </section>
+            </article>
+        </main>
+        <button
+            onclick="themeToggle()"
+            id="buttonToggle"
+            class="buttonToggleDark"
+        >
+            Tema Oscuro
+        </button>
+    </body>
+</html>
